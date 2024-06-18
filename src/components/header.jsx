@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header>
       <div className="container w-full max-w-[1140px] mx-auto px-[10px]">
-        <div className="w-full flex items-center justify-between py-[16px]">
+        <div className="w-full flex items-center justify-between py-[16px] ">
           <div>
             <Link to={"/"}>
               <h1 className="md:min-[320px]:text-[22px] md:max-[1024px]:text-[32px] font-[700]">
@@ -19,7 +19,7 @@ const Header = () => {
               </h1>
             </Link>
           </div>
-          <div>
+          <div className="hidden">
             <form className="bg-[#F5F5F5] w-[375px] rounded-[8px] px-[12px] py-[8px] flex gap-[10px] border-[1px] border-[#F5F5F5] focus-within:border-[1px] focus-within:border-[#999] ease-in-out duration-[0.1s]">
               <label htmlFor="search">
                 <SearchIcon />
@@ -32,7 +32,7 @@ const Header = () => {
               />
             </form>
           </div>
-          <div className="flex gap-[20px]">
+          <div className="gap-[20px] hidden lg:flex">
             <Link
               to={"/"}
               onClick={() => setLink("home")}
@@ -71,7 +71,7 @@ const Header = () => {
             </Link>
           </div>
 
-          <div className="flex gap-[12px] items-center justify-center">
+          <div className="flex gap-[12px] items-center justify-center hidden md:flex">
             <button className="p-[8px] rounded-[4px] hover:bg-[#F5F5F5] transition-all ease-in-out duration-[0.2s]">
               <HeartIcon />
             </button>
