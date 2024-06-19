@@ -4,21 +4,21 @@ const Banner = () => {
       <div className="overflow-hidden  bg-[#211C24]">
         <div className="container w-full max-w-[1140px] mx-auto px-[10px]">
           <div className="flex flex-col items-center laptop:flex-row laptop:justify-between">
-            <div className="flex flex-col items-center mt-[60px]">
-              <p className="font-[600] text-[18px] leading-[128%] text-[#fff] opacity-40 mb-[10px]">
+            <div className="flex flex-col items-center mt-[60px] laptop:items-start">
+              <p className="font-[600] text-[18px] leading-[128%] text-[#fff] opacity-40 mb-[10px] tabel:text-[24px]">
                 Pro.Beyond.
               </p>
-              <h1 className="tracking-[-0.01em] text-[56px] leading-[100%] text-[#fff] font-[600] text-center">
+              <h1 className="tracking-[-0.01em] text-[56px] leading-[100%] text-[#fff] font-[600] text-center tabel:text-[72px]">
                 <span className="font-[200] text-center">IPhone 14</span> Pro
               </h1>
-              <p className="text-[18px] text-[#909090] font-[133%] mt-[24px] text-center px-[16px]">
+              <p className="text-[18px] text-[#909090] font-[133%] mt-[24px] text-center px-[16px] laptop:text-start laptop:p-0">
                 Created to change everything for the better. For everyone
               </p>
-              <button className="text-[#fff] border-[1px] border-solid border-[#fff] rounded-[6px] py-[14px] px-[48px] mt-[24px] text-[14px] leading-[150%] hover:text-[#211C24] hover:bg-white transition-all">
+              <button className="text-[#fff] border-[1px] border-solid border-[#fff] rounded-[6px] py-[14px] px-[48px] mt-[24px] text-[14px] leading-[150%] hover:text-[#211C24] hover:bg-white transition-all tabel:text-[16px] tabel:px-[56px] tabel:py-[16px]">
                 Shop Now
               </button>
             </div>
-            <div className="w-[80%]">
+            <div className="w-[80%] laptop:w-[40%]">
               <img
                 className="w-full"
                 src="banner/banner-iphone.png"
@@ -31,29 +31,29 @@ const Banner = () => {
       <div className="w-full flex flex-col laptop:flex-row">
         <div className="w-full flex flex-col">
           <div className="w-full flex flex-col items-center p-[40px] laptop:p-0 laptop:flex-row">
-            <div className="laptop:w-[50%]">
+            <div className="laptop:w-[100%] laptop:h-full">
               <img
                 className="laptop:hidden"
                 src="banner/PlayStation.png"
                 alt=""
               />
               <img
-                className="hidden laptop:block w-full"
+                className="hidden laptop:block w-full h-full"
                 src="banner/banner-playstation.png"
                 alt=""
               />
             </div>
-            <div className="w-[50%] flex flex-col items-center laptop:items-start">
-              <h2 className="text-[34px] text-[#000] leading-[118%] font-[400] mt-[24px] laptop:mt-[16px]">
+            <div className="flex flex-col items-center laptop:items-start">
+              <h2 className="text-[22px] text-[#000] leading-[118%] font-[400] mt-[24px] laptop:mt-[16px] tabel-min:text-[34px]">
                 Playstation 5
               </h2>
-              <p className="text-[14px] text-[#909090] leading-[170%] mt-[16px] font-[500] text-center laptop:text-start laptop:pr-[22px]">
+              <p className="text-[14px] text-[#909090] leading-[170%] mt-[16px] font-[500] text-center tabel:w-[70%] laptop:text-start ">
                 Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O
                 will redefine your PlayStation experience.
               </p>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex flex-col tabel:flex-row">
             <div className="w-full bg-[#ededed] flex flex-col items-center p-[40px] laptop:p-0 laptop:flex-row laptop:gap-[24px]">
               <div className="laptop:w-[40%]">
                 <img
@@ -71,13 +71,13 @@ const Banner = () => {
                 <h2 className="text-[29px] text-[#000] leading-[138%] font-[300]">
                   Apple AirPods <span className="font-[500]"> Max</span>
                 </h2>
-                <p className="text-[14px] text-[#909090] leading-[170%] font-[500]">
+                <p className="text-[14px] text-[#909090] leading-[170%] font-[500] text-center laptop:text-start">
                   Computational audio. Listen, it's powerful
                 </p>
               </div>
             </div>
-            <div className="w-full bg-[#353535] flex items-center flex-col p-[40px] laptop:p-0 laptop:flex-row laptop:gap-[24px]">
-              <div className="laptop:w-[80%]">
+            <div className="w-full bg-[#353535] flex items-center flex-col p-[40px] laptop:p-0 laptop:flex-row laptop:gap-[16px]">
+              <div className="laptop:w-[60%]">
                 <img
                   className="laptop:hidden"
                   src="banner/image 36.png"
@@ -89,11 +89,11 @@ const Banner = () => {
                   alt=""
                 />
               </div>
-              <div className="flex flex-col items-center laptop:items-start laptop:pr-[34px]">
+              <div className="flex flex-col items-center laptop:items-start">
                 <h2 className="text-[#fff] text-[29px] font-[300] leading-[138%]">
                   Apple Vision <span className="font-[500]">Pro</span>
                 </h2>
-                <p className="text-[#909090] text-[14px] font-[500] leading-[170%] mt-[8px]">
+                <p className="text-[#909090] text-[14px] font-[500] leading-[170%] mt-[8px] text-center laptop:text-start">
                   An immersive way to experience entertainment
                 </p>
               </div>
@@ -105,7 +105,7 @@ const Banner = () => {
             <h2 className="text-[#000] text-[34px] leading-[100%] font-[100] laptop:text-[62px]">
               Macbook <span className="font-[600]">Air</span>
             </h2>
-            <p className="font-[500] text-[14px] leading-[170%] text-[#909090] my-[16px]">
+            <p className="font-[500] text-[14px] leading-[170%] text-[#909090] my-[16px] text-center tabel:w-[60%] laptop:text-start laptop:w-full">
               The new 15‑inch MacBook Air makes room for more of what you love
               with a spacious Liquid Retina display.
             </p>

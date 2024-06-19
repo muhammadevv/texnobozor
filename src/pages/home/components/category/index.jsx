@@ -32,7 +32,7 @@ function Category() {
               </button>
             </div> */}
           </div>
-          <div className="mt-[32px] flex justify-between">
+          <div className="mt-[32px] flex flex-wrap justify-center gap-[16px] tabel-min:gap-[24px] tabel:px-[24px] tabel:gap-[36px] laptop:justify-between laptop:p-0 laptop:flex-nowrap laptop:gap-[24px]">
             <div className="w-[160px] h-[128px] bg-[#ededed] rounded-[15px]">
               <Link>
                 <div className="w-full h-full flex items-center justify-center flex-col border-[1px] border-[#ededed] border-[solif] hover:border-[#000] rounded-[15px] transition-all">
