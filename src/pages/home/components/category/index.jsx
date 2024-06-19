@@ -1,7 +1,16 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import { CameraIcon, ComputerIcon, GamingIcon, HeadphoneIcon, LeftIcon, PhoneIcon, RightIcon, WatchIcon } from "../../../../assets/icons";
+import {
+  CameraIcon,
+  ComputerIcon,
+  GamingIcon,
+  HeadphoneIcon,
+  LeftIcon,
+  PhoneIcon,
+  RightIcon,
+  WatchIcon,
+} from "../../../../assets/icons";
 
 function Category() {
   return (
@@ -14,14 +23,14 @@ function Category() {
                 Browse By Category
               </h2>
             </div>
-            <div className="flex gap-[10px]">
+            {/* <div className="flex gap-[10px]">
               <button className="w-[36px] h-[36px] flex items-center justify-center rounded-[50%] hover:bg-[#ededed] transition-all">
                 <LeftIcon />
               </button>
               <button className="w-[36px] h-[36px] flex items-center justify-center rounded-[50%] hover:bg-[#ededed] transition-all">
                 <RightIcon/>
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="mt-[32px] flex justify-between">
             <div className="w-[160px] h-[128px] bg-[#ededed] rounded-[15px]">

@@ -18,9 +18,9 @@ const Banner = () => {
                 Shop Now
               </button>
             </div>
-            <div>
+            <div className="w-[80%]">
               <img
-                className=""
+                className="w-full"
                 src="banner/banner-iphone.png"
                 alt="Iphone Image"
               />
@@ -31,7 +31,7 @@ const Banner = () => {
       <div className="w-full flex flex-col laptop:flex-row">
         <div className="w-full flex flex-col">
           <div className="w-full flex flex-col items-center p-[40px] laptop:p-0 laptop:flex-row">
-            <div className="w-[50%]">
+            <div className="laptop:w-[50%]">
               <img
                 className="laptop:hidden"
                 src="banner/PlayStation.png"
@@ -43,11 +43,11 @@ const Banner = () => {
                 alt=""
               />
             </div>
-            <div className="w-[50%] flex flex-col ">
+            <div className="w-[50%] flex flex-col items-center laptop:items-start">
               <h2 className="text-[34px] text-[#000] leading-[118%] font-[400] mt-[24px] laptop:mt-[16px]">
                 Playstation 5
               </h2>
-              <p className="text-[14px] text-[#909090] leading-[170%] mt-[16px] font-[500]">
+              <p className="text-[14px] text-[#909090] leading-[170%] mt-[16px] font-[500] text-center laptop:text-start laptop:pr-[22px]">
                 Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O
                 will redefine your PlayStation experience.
               </p>
