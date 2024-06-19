@@ -4,17 +4,17 @@ const Banner = () => {
       <div className="overflow-hidden  bg-[#211C24]">
         <div className="container w-full max-w-[1140px] mx-auto px-[10px]">
           <div className="flex flex-col items-center laptop:flex-row laptop:justify-between">
-            <div className="flex flex-col items-center mt-[80px]">
-              <p className="font-[600] text-[24px] leading-[128%] text-[#fff] opacity-40 mb-[10px]">
+            <div className="flex flex-col items-center mt-[60px]">
+              <p className="font-[600] text-[18px] leading-[128%] text-[#fff] opacity-40 mb-[10px]">
                 Pro.Beyond.
               </p>
-              <h1 className="tracking-[-0.01em] text-[72px] leading-[100%] text-[#fff] font-[600] text-center">
+              <h1 className="tracking-[-0.01em] text-[56px] leading-[100%] text-[#fff] font-[600] text-center">
                 <span className="font-[200] text-center">IPhone 14</span> Pro
               </h1>
-              <p className="text-[18px] text-[#909090] font-[133%] mt-[24px] text-center px-[20px]">
+              <p className="text-[18px] text-[#909090] font-[133%] mt-[24px] text-center px-[16px]">
                 Created to change everything for the better. For everyone
               </p>
-              <button className="text-[#fff] border-[1px] border-solid border-[#fff] rounded-[6px] py-[16px] px-[56px] mt-[24px] text-[16px] leading-[150%] hover:text-[#211C24] hover:bg-white transition-all">
+              <button className="text-[#fff] border-[1px] border-solid border-[#fff] rounded-[6px] py-[14px] px-[48px] mt-[24px] text-[14px] leading-[150%] hover:text-[#211C24] hover:bg-white transition-all">
                 Shop Now
               </button>
             </div>
