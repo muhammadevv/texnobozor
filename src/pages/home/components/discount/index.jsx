@@ -11,7 +11,7 @@ function Discount() {
               Discounts up to -50%
             </h3>
           </div>
-          <div className="mt-[32px] flex gap-[16px]">
+          <div className="mt-[32px] flex gap-[16px] flex-wrap">
             <div className="w-[268px] h-[432px] py-[24px] px-[16px] bg-[#f6f6f6] flex flex-col items-center rounded-[8px]">
               <div className="w-full flex justify-end mb-[16px]">
                 <button>

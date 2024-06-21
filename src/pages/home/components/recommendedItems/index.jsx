@@ -1,5 +1,4 @@
 import React from "react";
-import { LikeIcon } from "../../../../assets/icons";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -7,10 +6,13 @@ import { Pagination } from 'swiper/modules';
 
 
 function RecommendedItems() {
+  console.log(window.innerWidth);
+
+
   return (
     <section>
       <Swiper
-        slidesPerView={1}
+        slidesPerView={window.innerWidth >= 900 ? 4 : window.innerWidth < 640 ? 1 : 2}
         slidesPerGroup={1}
         pagination={true}
         modules={[Pagination]}
@@ -19,8 +21,8 @@ function RecommendedItems() {
           '--swiper-pagination-color': '#000',
         }}
       >
-        <SwiperSlide className="w-[360px] bg-[#fff]">
-          <div className="w-full ">
+        <SwiperSlide className="w-[360px] bg-[#fff] flex flex-col items-center justify-center">
+          <div className="w-[90%]">
             <img
               className="w-full"
               src="/recommendedItem/recommended-img-1.png"
@@ -40,8 +42,8 @@ function RecommendedItems() {
             </button>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[360px] bg-[#f9f9f9] ">
-          <div className="w-full">
+        <SwiperSlide className="w-[360px] bg-[#f9f9f9] flex flex-col items-center justify-center">
+          <div className="w-[90%]">
             <img
               className="w-full"
               src="/recommendedItem/recommended-img-1.png"
@@ -61,8 +63,8 @@ function RecommendedItems() {
             </button>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[360px] bg-[#eaeaea] ">
-          <div className="w-full">
+        <SwiperSlide className="w-[360px] bg-[#eaeaea] flex flex-col items-center justify-center">
+          <div className="w-[90%]">
             <img
               className="w-full"
               src="/recommendedItem/recommended-img-1.png"
@@ -82,8 +84,8 @@ function RecommendedItems() {
             </button>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="w-[360px] bg-[#2c2c2c] ">
-          <div className="w-full">
+        <SwiperSlide className="w-[360px] bg-[#2c2c2c] flex flex-col items-center justify-center">
+          <div className="w-[90%]">
             <img
               className="w-full"
               src="/recommendedItem/recommended-img-1.png"
