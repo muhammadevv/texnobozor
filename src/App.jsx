@@ -5,6 +5,13 @@ import HomePage from "./pages/home";
 import { routes } from "./utils/routes";
 
 function App() {
+
+  setTimeout(() => {
+    window.addEventListener('resize', () => {
+      window.location.reload();
+    })
+  }, 1000)
+
   return (
     <>
       <Header />

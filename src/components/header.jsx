@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [link, setLink] = useState("home");
 
-  console.log("hello");
-
   return (
     <header>
       <div className="container w-full max-w-[1140px] mx-auto px-[10px]">
