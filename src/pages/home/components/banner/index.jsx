@@ -77,7 +77,7 @@ const Banner = () => {
               </div>
             </div>
             <div className="w-full bg-[#353535] flex items-center flex-col p-[40px] laptop:p-0 laptop:flex-row laptop:gap-[16px]">
-              <div className="laptop:w-[60%]">
+              <div className="laptop:w-[70%]">
                 <img
                   className="laptop:hidden"
                   src="banner/image 36.png"
@@ -89,7 +89,7 @@ const Banner = () => {
                   alt=""
                 />
               </div>
-              <div className="flex flex-col items-center laptop:items-start">
+              <div className="flex flex-col items-center laptop:items-start pr-[4%]">
                 <h2 className="text-[#fff] text-[29px] font-[300] leading-[138%]">
                   Apple Vision <span className="font-[500]">Pro</span>
                 </h2>

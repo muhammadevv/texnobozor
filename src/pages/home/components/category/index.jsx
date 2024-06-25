@@ -33,7 +33,7 @@ function Category() {
             </div> */}
           </div>
           <div className="mt-[32px] flex flex-wrap justify-center gap-[16px] tabel-min:gap-[24px] tabel:px-[24px] tabel:gap-[36px] laptop:justify-between laptop:p-0 laptop:flex-nowrap laptop:gap-[24px]">
-            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px]">
+            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px] laptop:w-[160px] laptop:h-[130px]">
               <Link>
                 <div className="w-full h-full flex items-center justify-center flex-col border-[1px] border-[#ededed] border-[solif] hover:border-[#000] rounded-[15px] transition-all">
                   <span>
@@ -45,7 +45,7 @@ function Category() {
                 </div>
               </Link>
             </div>
-            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px]">
+            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px] laptop:w-[160px] laptop:h-[130px]">
               <div className="w-full h-full flex items-center justify-center flex-col border-[1px] border-[#ededed] border-[solif] hover:border-[#000] rounded-[15px] transition-all">
                 <span>
                   <WatchIcon />
@@ -55,7 +55,7 @@ function Category() {
                 </p>
               </div>
             </div>
-            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px]">
+            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px] laptop:w-[160px] laptop:h-[130px]">
               <div className="w-full h-full flex items-center justify-center flex-col border-[1px] border-[#ededed] border-[solif] hover:border-[#000] rounded-[15px] transition-all">
                 <span>
                   <CameraIcon />
@@ -65,7 +65,7 @@ function Category() {
                 </p>
               </div>
             </div>
-            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px]">
+            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px] laptop:w-[160px] laptop:h-[130px]">
               <div className="w-full h-full flex items-center justify-center flex-col border-[1px] border-[#ededed] border-[solif] hover:border-[#000] rounded-[15px] transition-all">
                 <span>
                   <HeadphoneIcon />
@@ -75,7 +75,7 @@ function Category() {
                 </p>
               </div>
             </div>
-            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px]">
+            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px] laptop:w-[160px] laptop:h-[130px]">
               <div className="w-full h-full flex items-center justify-center flex-col border-[1px] border-[#ededed] border-[solif] hover:border-[#000] rounded-[15px] transition-all">
                 <span>
                   <ComputerIcon />
@@ -85,7 +85,7 @@ function Category() {
                 </p>
               </div>
             </div>
-            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px]">
+            <div className="w-[140px] h-[120px] bg-[#ededed] rounded-[15px] laptop:w-[160px] laptop:h-[130px]">
               <div className="w-full h-full flex items-center justify-center flex-col border-[1px] border-[#ededed] border-[solif] hover:border-[#000] rounded-[15px] transition-all">
                 <span>
                   <GamingIcon />

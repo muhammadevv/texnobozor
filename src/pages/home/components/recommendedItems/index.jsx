@@ -21,7 +21,7 @@ function RecommendedItems() {
           '--swiper-pagination-color': '#000',
         }}
       >
-        <SwiperSlide className="w-[360px] bg-[#fff] flex flex-col items-center justify-center">
+        <SwiperSlide className="w-[360px] bg-[#ffffff] flex flex-col items-center justify-center">
           <div className="w-[90%]">
             <img
               className="w-full"
@@ -29,11 +29,11 @@ function RecommendedItems() {
               alt=""
             />
           </div>
-          <div className="mt-[16px] w-full px-[32px] pb-[56px] flex flex-col items-center">
+          <div className="mt-[16px] w-full px-[32px] pb-[56px] flex flex-col items-center tabel-min:items-start">
             <h2 className="text-[33px] text-[#000] font-[400] leading-[145%]">
               Popular Products
             </h2>
-            <p className="text-[14px] text-[#909090] font-[500] leading-[170%] my-[16px] text-center">
+            <p className="text-[14px] text-[#909090] font-[500] leading-[170%] my-[16px] text-center tabel-min:text-start">
               iPad combines a magnificent 10.2-inch Retina display, incredible
               performance, multitasking and ease of use.
             </p>
@@ -50,11 +50,11 @@ function RecommendedItems() {
               alt=""
             />
           </div>
-          <div className="w-full mt-[16px] px-[32px] pb-[56px] flex flex-col items-center">
+          <div className="mt-[16px] w-full px-[32px] pb-[56px] flex flex-col items-center tabel-min:items-start">
             <h2 className="text-[33px] text-[#000] font-[400] leading-[145%]">
               Ipad Pro
             </h2>
-            <p className="text-[14px] text-[#909090] font-[500] leading-[170%] my-[16px] text-center">
+            <p className="text-[14px] text-[#909090] font-[500] leading-[170%] my-[16px] text-center tabel-min:text-start">
               iPad combines a magnificent 10.2-inch Retina display, incredible
               performance, multitasking and ease of use.
             </p>
@@ -71,11 +71,11 @@ function RecommendedItems() {
               alt=""
             />
           </div>
-          <div className="mt-[16px] w-full px-[32px] pb-[56px]  flex flex-col items-center">
+          <div className="mt-[16px] w-full px-[32px] pb-[56px] flex flex-col items-center tabel-min:items-start">
             <h2 className="text-[33px] text-[#000] font-[400] leading-[145%]">
               Samsung Galaxy
             </h2>
-            <p className="text-[14px] text-[#909090] font-[500] leading-[170%] my-[16px] text-center">
+            <p className="text-[14px] text-[#909090] font-[500] leading-[170%] my-[16px] text-center tabel-min:text-start">
               iPad combines a magnificent 10.2-inch Retina display, incredible
               performance, multitasking and ease of use.
             </p>
@@ -92,11 +92,11 @@ function RecommendedItems() {
               alt=""
             />
           </div>
-          <div className="mt-[16px] w-full px-[32px] pb-[56px] flex flex-col items-center">
+          <div className="mt-[16px] w-full px-[32px] pb-[56px] flex flex-col items-center tabel-min:items-start">
             <h2 className="text-[33px] text-[#fff] font-[400] leading-[145%]">
               Macbook Pro
             </h2>
-            <p className="text-[14px] text-[#909090] font-[500] leading-[170%] my-[16px] text-center">
+            <p className="text-[14px] text-[#909090] font-[500] leading-[170%] my-[16px] text-center tabel-min:text-start">
               iPad combines a magnificent 10.2-inch Retina display, incredible
               performance, multitasking and ease of use.
             </p>
