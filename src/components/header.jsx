@@ -6,7 +6,7 @@ const Header = () => {
   const [link, setLink] = useState("home");
 
   return (
-    <header>
+    <header className="border-b-[1px] border-b-[#b5b5b5]">
       <div className="container w-full max-w-[1140px] mx-auto px-[10px]">
         <div className="w-full flex items-center justify-between py-[16px] ">
           <div>
@@ -83,3 +83,7 @@ const Header = () => {
 };
 
 export default Header;
+// https://sex-studentki.link/comments/?is_ajax=1&action=get&object_id=18095
+
+// blob: https://sex-studentki.link/f2bef79d-3971-43aa-b741-f5d81c64eb36
+// https://2022welcome.com/get-pro/596/600/1858/6572?source=https%3A%2F%2Fsex-studentki.link%2Fhq-porn%2Flatest&page=https%3A%2F%2Fsex-studentki.link%2Fvideo%2Fza-gorlo-vzjal-i-do-orgazma-ot-ebal-i-pohuj-chto-ne-konchil-sam-62246&res_type=phone&fingerprint=091ae626ac9de0539f70b3826a47e985&6076643
